@@ -1,0 +1,5 @@
+# install gulp globally
+npm install -g gulp
+
+# initialize project
+npm install

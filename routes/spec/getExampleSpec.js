@@ -15,7 +15,7 @@ describe('Routes', function() {
             spy = res.send = sinon.spy();
 
             getExample(req, res);
-            expect(spy.calledOnce).to.equal(true);
+            expect(spy.calledOnce).to.equal(false);
         });
     });
 });

@@ -1,7 +1,7 @@
 'use strict';
 
 function getExample(req, res) {
-    res.send('Example Response');
+    res.send('New Example Response');
 }
 
 module.exports = getExample;

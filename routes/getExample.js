@@ -1,7 +1,7 @@
 'use strict';
 
 function getExample(req, res) {
-    res.send('Failed Auto Deploy Example Response');
+    res.send('C9 Example Response');
 }
 
 module.exports = getExample;

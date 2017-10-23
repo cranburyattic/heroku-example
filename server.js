@@ -19,7 +19,7 @@ const schema = buildSchema(`
 const root = {
   hello: () => {
     return 'Hello world!';
-  },
+  }
 };
 
 
@@ -30,7 +30,7 @@ app.get('/example', example);
 app.use('/graphql', graphqlHTTP({
   schema: schema,
   rootValue: root,
-  graphiql: true,
+  graphiql: true
 }));
 
 

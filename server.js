@@ -11,7 +11,8 @@ const port = process.env.PORT || 5000;
 // Construct a schema, using GraphQL schema language
 const schema = buildSchema(`
   type Query {
-    hello: String
+    hello: String,
+    goodbye: String
   }
 `);
 
@@ -19,6 +20,9 @@ const schema = buildSchema(`
 const root = {
   hello: () => {
     return 'Hello world!';
+  },
+   goodbye: () => {
+    return 'Goodbye world!';
   }
 };
 
